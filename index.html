@@ -11,54 +11,80 @@
 <body>
 
     <div class="container-fluid banner">
-        <div class="container">
-        <img src="images/150x150.png" class="logo">
+        <div class="w60">
+            <img src="images/150x150.png" class="logo">
 
-        <ul class="nav flex-column justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="browse.html">Browse Listings</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="messenger.html">Messenger</a>
-            </li>
-        </ul>
+            <ul class="nav flex-column justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="browse.html">Browse Listings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="messenger.html">Messenger</a>
+                </li>
+            </ul>
         </div>
     </div>
 
-    <div class="container-fluid sec1">
-        <div class="container">
-            <div class="row">
+    <div class="sec1">
+        <div class="w60 row mx-auto">
+            
                 
-                <div class="col-6">
-                    <h2 class="text-right">Struggling with the cost of living?<br>
-                    Share rides and lower your<br>
-                    travel expenses</h2>
-                    
-                    
-                    <button class="btn btn-primary">Sign In or Register Now!</button>
-                </div>
-                <div class="col-6">
-                    <img src="images/300x300.png">
-                </div>
+            <div class="col-7">
+                <h2 class="text-right">Struggling with the cost of living?<br>
+                Share rides and lower your<br>
+                travel expenses</h2>
+                
+                
+                <button class="btn btn-primary">Sign In or Register Now!</button>
             </div>
+            <div class="col-5">
+                <img src="images/300x300.png">
+            </div>
+            
         </div>
     
     </div>
 
-    <div class="container-fluid sec2">
-        <h1>Why Stuber?</h1>
-        <p>It's quite simple really... We know how finacially tough student life can be.<br>
-            Cutting</p>
+    <div class="sec2">
+        <div class="w60 text-center">
+            <h1>Why Stuber?</h1>
+            <p>It's quite simple really... We know how finacially tough student life can be. Cutting costs where you can is vital in order to scoff down your next pie at the cafe. so how do we make life easier for you? Student ride sharing. It's a fun and affordable way to commute. While ride sharing isn't new, Stuber is a fresh way to share the road and the costs. Choose to drive or ride, and match with students based on route and time of day. Son't be stupid and Stuber today.</p>
+        </div>
     </div>
 
     <div class="sec3"></div>
 
-    <div class="sec4"></div>
+    <div class="sec4">
+        <div class="w40 row mx-auto">
+            <div class="col-6">
+                <img src="images/150x150.png" class="mx-auto icon">
+                <p class="text-center mx-auto">A dedicated Toi Ohomai car park ensures you will always find a park without being late to class.</p>
+            </div>
+            <div class="col-6">
+                <img src="images/150x150.png" class="mx-auto icon">
+                <p class="text-center mx-auto">Easily connect and sort a ride with friendly, like minded students nearby.</p>
+            </div>
+        </div>
+    </div>
     
-    <div class="sec5"></div>
+    <div class="sec5">
+        <div class="w60 row mx-auto">
+            <div class="col-4">
+                <a href="#" class="btn stuber-btn mr-1">Sign in or Register</a>
+            </div>
+            <div class="col-4">
+                <a href="#" class="btn stuber-btn mr-1">Check out the listings</a>
+            </div>  
+            <div class="col-4">
+                <a href="#" class="btn stuber-btn mr-1">Head to your messages</a>
+            </div>
+        </div>
+            
+        
+    </div>
 
     <div class="sec6"></div>
 
@@ -71,15 +97,23 @@
     background: rgb(180, 180, 180);
 }
 .logo{
-    position: absolute;
-    margin: 25px 5px;
+    
+    margin-top: 25px;
 }
 .nav{
     float: right;
 
 }
+.w60{
+    width: 60%;
+    margin: auto;
+}
+.w40{
+    width: 40%;
+    
+}
 .sec1{
-    height: 300px;
+    height: 400px;
 }
 .sec2{
     height: 300px;
@@ -94,9 +128,24 @@
 .sec4{
     height: 300px;
 }
+.icon{
+    margin-top: 20px;
+    width: 150px;
+    display: block;
+}
+
 .sec5{
     height: 200px;
     background: rgb(35, 160, 160);
+}
+.stuber-btn{
+    margin-top: 50px;
+    width: 350px;
+    height: 100px;
+    
+    background-color: rgb(231, 160, 26);
+    border-radius: 25px;
+    
 }
 .sec6{
     height: 100px;
