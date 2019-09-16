@@ -102,8 +102,11 @@ h1{
     text-decoration: none !important;    
 }
 .section-footer{
-    height: 50px;
+    height: 100px;
     background: rgb(198,198,198);
+}
+.w50{
+    width: 400px;
 }
 
 /* SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  | */
