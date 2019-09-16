@@ -50,10 +50,12 @@ h1{
     font-family: 'Elsie', cursive;
 }
 .section-image{
-    height: 500px;
-    background-image: url("/images/1920x500.png");
+    height: 640px;
+    background-image: url("/images/ride02.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .section-perks{
     height: 300px;
@@ -126,4 +128,11 @@ h1{
 .filters{
     background-color: rgb(198,198,198);
     
+}
+.section-listings{
+    min-height: 1000px;
+    background-color: rgb(95,118,116);
+}
+.map{
+    display:inline;
 }
