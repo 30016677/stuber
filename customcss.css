@@ -2,10 +2,19 @@ body{
     color:rgb(30,30,30);
     background-color: rgb(255,255,255);
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 2em;
+
+}
+h2{
+    font-size: 1.5em;
 }
 .section-banner{
     height:200px;    
     background: rgb(198,198,198);
+    width: 100%;
     
 }
 .logo{    
@@ -24,7 +33,7 @@ a:hover{
     
 }
 .w1152{
-    width: 1152px;
+    max-width: 1152px;
     margin: auto;
 }
 .w768{
@@ -35,13 +44,17 @@ a:hover{
     width: 250px;
 }
 .section-blurb{
-    height: 500px;
+    /* min-height: 500px; */
 }
+
+
+
 .rad-25{
     border-radius: 25px;
 }
 .section-why{
-    height: 300px;
+    
+    min-height: 300px;
     background: rgb(198,198,198);
     font-size: 25px;
     color: rgb(30,30,30);
@@ -50,15 +63,20 @@ h1{
     font-family: 'Elsie', cursive;
 }
 .section-image{
+    
     height: 640px;
     background-image: url("/images/ride02.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+}
+@media only screen and (max-width: 768px){
+    .section-image{
+        height: 320px;
+    }
 }
 .section-perks{
-    height: 300px;
+    min-height: 300px;
     
 }
 .icon{
@@ -97,6 +115,7 @@ h1{
     text-decoration: none;
     text-align: center;
     font-family:  'Elsie', cursive;
+    max-width: 300px;
 }
 .stuber-btn:hover, .stuber-btn-small:hover{
     color: rgb(30,30,30);
