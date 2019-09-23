@@ -180,4 +180,9 @@ li{
 a:hover{
     text-decoration: none;
 }
-
+.listing{
+    width: 1152px;
+    height: 150px;
+    background-color: rgb(198,198,198);
+    
+}
