@@ -162,7 +162,22 @@ h1{
 
 /* LISTINGS  |  LISTINGS  |  LISTINGS  |  LISTINGS  |  LISTINGS  |  LISTINGS  |  LISTINGS  |   */
 
-.section-options{
-    min-height: 1000px;
+
+.section-listings{
+    margin-top:20px;
+    min-height: 200px;
     background-color: rgb(95,118,116);
 }
+.filter{
+    text-decoration: none;
+    color:rgb(30,30,30);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
