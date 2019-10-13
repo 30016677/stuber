@@ -136,8 +136,6 @@ h1{
     background-color: rgba(242,176,89,.9);
     text-decoration: none !important;    
 }
-
-
 .section-footer{
     height: 100px;
     background: rgb(198,198,198);
@@ -165,7 +163,7 @@ h1{
 
 .section-listings{
     margin-top:20px;
-    min-height: 200px;
+    height: 950px;
     background-color: rgb(95,118,116);
 }
 .filter{
@@ -174,15 +172,37 @@ h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
 }
+.filter.selected{
+    background-color: rgb(242,176,89);
+}
 li{
     list-style: none;
 }
-a:hover{
-    text-decoration: none;
-}
-.listing{
-    width: 1152px;
-    height: 150px;
+.button-container{
     background-color: rgb(198,198,198);
     
+}
+.button-container a:hover{
+    text-decoration: none;
+    background-color: rgb(242,176,89);
+    padding: 0 4px 0 4px;
+    border-radius: 25px;
+    color:rgb(30,30,30);
+}
+
+.listing{
+    max-width: 1152px;
+    width: 80%;
+    height: 150px;
+    background-color: rgb(198,198,198);
+}
+.lister-img{
+    width:120px;
+    height: 120px;
+    margin-top: 15px;
+}
+.rating{
+    height: 25px;
+    width: 25px;
+    float: right;
 }

@@ -8,8 +8,17 @@
     <link rel="stylesheet" href="customcss.css">
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Elsie|Source+Sans+Pro&display=swap" rel="stylesheet">
+    
+    <script>
+        $(".filter").click(function (){
+             $(this).toggleclass("selected");
+        });
+
+        
+    </script>
 
   </head>
 <body>
@@ -36,10 +45,10 @@
 
 <div class="w768 mx-auto">        
     <div class="row">
-        <div class="col-5">
-            <button class="stuber-btn-small rad-25 mx-auto mb-4 px-4" style="font-size:25px;">Suburb:</button>
+        <div class="col-lg-5 col-md-6">
+            <button class="stuber-btn-small rad-25 mx-auto mb-4 px-4" style="font-size:25px; cursor:default;">Suburb:</button>
 
-            <div class="button-container py-5" style="background-color: rgb(198,198,198);">
+            <div class="button-container py-5">
                 <ul>
                     <li class="py-2"><a href="#" class="filter">Tauranga central</a></li>
                     <li class="py-2"><a href="#" class="filter">Mount Maunganui</a></li>
@@ -48,7 +57,7 @@
                 </ul>
             </div>        
         </div>
-        <div class="col-7"> 
+        <div class="col-lg-7 col-md-6"> 
             <img src="images/tauranga.jpg" alt="map" width="420" height="400">
         </div>
     </div>
@@ -61,29 +70,55 @@
 
     
     <div class="listing mx-auto my-4">
-        <img src="images/150x150.png" class="float-left">
-        <h2>Name name</h2>
-        <p>location time rating bio</p>
+        <img src="images/male.svg" class="lister-img float-left">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <h2>Donald Keeling</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque, odio interdum ultrices tristique, diam risus feugiat ligula, in maximus nunc turpis vel risus. Praesent nisl tortor, tempus et nunc ut, sodales tempus felis.</p>
     </div>
     <div class="listing mx-auto my-4">
-        <img src="images/150x150.png" class="float-left">
-        <h2>Name name</h2>
-        <p>location time rating bio</p>
+        <img src="images/female.svg" class="lister-img float-left">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-unfilled.png" class="rating">
+        <h2>Brittney Pennington</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque, odio interdum ultrices tristique, diam risus feugiat ligula, in maximus nunc turpis vel risus. Praesent nisl tortor, tempus et nunc ut, sodales tempus felis.</p>
     </div>
     <div class="listing mx-auto my-4">
-        <img src="images/150x150.png" class="float-left">
-        <h2>Name name</h2>
-        <p>location time rating bio</p>
+        <img src="images/male.svg" class="lister-img float-left">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-unfilled.png" class="rating">
+        <h2>Jedd Hutchinson</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque, odio interdum ultrices tristique, diam risus feugiat ligula, in maximus nunc turpis vel risus. Praesent nisl tortor, tempus et nunc ut, sodales tempus felis.</p>
     </div>
     <div class="listing mx-auto my-4">
-        <img src="images/150x150.png" class="float-left">
-        <h2>Name name</h2>
-        <p>location time rating bio</p>
+        <img src="images/female.svg" class="lister-img float-left">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-unfilled.png" class="rating">
+        <img src="images/star-unfilled.png" class="rating">
+        <h2>Courtney Mcdaniel</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque, odio interdum ultrices tristique, diam risus feugiat ligula, in maximus nunc turpis vel risus. Praesent nisl tortor, tempus et nunc ut, sodales tempus felis.</p>
     </div>
     <div class="listing mx-auto my-4">
-        <img src="images/150x150.png" class="float-left">
-        <h2>Name name</h2>
-        <p>location time rating bio</p>
+        <img src="images/male.svg" class="lister-img float-left">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-filled.png" class="rating">
+        <img src="images/star-unfilled.png" class="rating">
+        <img src="images/star-unfilled.png" class="rating">
+        <img src="images/star-unfilled.png" class="rating">
+        <h2>Ace Haynes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque, odio interdum ultrices tristique, diam risus feugiat ligula, in maximus nunc turpis vel risus. Praesent nisl tortor, tempus et nunc ut, sodales tempus felis.</p>
+        
     </div>
 
 </div>
@@ -98,6 +133,7 @@
         <a href="https://www.youtube.com/"><img src="images/socials/youtube.png" alt="youtube social" class="mt-4 mx-auto"></a>
         <a href="mailto:cs@stuber.com?Subject=Customer%20enquiry"><img src="images/socials/mail.png" alt="mail stuber" class="mt-4 mx-auto"></a>
     </div>
+    
     <span style="position:absolute; bottom:10; right:0;">Team Groot</span>
 
 
