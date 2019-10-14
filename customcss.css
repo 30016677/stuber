@@ -46,12 +46,16 @@ a:hover{
     color:rgb(95,118,116);
     
 }
+.w1536{
+    max-width: 1536px;
+    margin: auto;
+}
 .w1152{
     max-width: 1152px;
     margin: auto;
 }
 .w768{
-    width: 768px;
+    max-width: 768px;
     margin-top: 50px;  
 }
 .w250{
@@ -143,6 +147,9 @@ h1{
 .w50{
     width: 400px;
 }
+.social:hover{
+    opacity: 0.8;
+}
 
 /* SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  | */
 
@@ -163,7 +170,7 @@ h1{
 
 .section-listings{
     margin-top:20px;
-    height: 950px;
+    min-height: 950px;
     background-color: rgb(95,118,116);
 }
 .filter{
@@ -180,7 +187,9 @@ li{
 }
 .button-container{
     background-color: rgb(198,198,198);
-    
+    width: 300px;
+    height: 330px;
+    margin-bottom: 20px;
 }
 .button-container a:hover{
     text-decoration: none;
@@ -189,11 +198,24 @@ li{
     border-radius: 25px;
     color:rgb(30,30,30);
 }
+.button-container ul{
+    
+}
+@media only screen and (max-width: 992px){
+    .button-container{
+        width: 420px;
+        
+    }
+}
+.map{
+    width: 420px;
+    height: 400px;
+}
 
 .listing{
     max-width: 1152px;
     width: 80%;
-    height: 150px;
+    min-height: 150px;
     background-color: rgb(198,198,198);
 }
 .lister-img{
@@ -205,4 +227,34 @@ li{
     height: 25px;
     width: 25px;
     float: right;
+}
+/* MESSENGER  |  MESSENGER  |  MESSENGER  |  MESSENGER  |  MESSENGER  |  MESSENGER  |  MESSENGER  |   */
+.w80{
+    width: 80%;
+}
+.section-messenger{
+    
+
+}
+.contacts{
+    background-color: rgb(150, 150, 150);
+}
+.contact{
+    width: 80%;
+    min-height: 150px;
+    background-color: rgb(198,198,198);
+}
+
+.messages{
+    height: 800px;
+    background-color: rgb(95,118,116);    
+}
+.message{
+    width: 80%;
+    min-height: 150px;
+    background-color: rgb(198,198,198);
+}
+.type-box{
+    height: 100px;
+    
 }
