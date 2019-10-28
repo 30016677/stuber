@@ -9,16 +9,17 @@ h2{
     font-size: 1.5em;
 }
 .section-banner{
-    height:200px;    
+    min-height:200px;    
     background: rgb(198,198,198);
     width: 100%;
     
 }
 .logo{    
+    width: 207px;
+    height: 150px;
     margin-top: 25px;
 }
 .nav{
-    float: right;
     margin-top: 15px;
 }
 .nav-link{
@@ -37,6 +38,18 @@ h2{
         text-decoration: none;
         text-align: center;        
         max-width: 300px;
+    }
+    .nav-item{
+        max-width: 300px;
+    }
+}
+@media only screen and (max-width: 410px){
+    .logo{
+        width: 103px;
+        height: 75px;
+    }
+    .nav-mobile{
+        font-size: 15px;
     }
 }
 a:hover{
@@ -58,17 +71,10 @@ a:hover{
 .w250{
     width: 250px;
 }
-.section-blurb{
-    /* min-height: 500px; */
-}
-
-
-
 .rad-25{
     border-radius: 25px;
 }
-.section-why{
-    
+.section-why{    
     min-height: 300px;
     background: rgb(198,198,198);
     font-size: 25px;
@@ -78,11 +84,7 @@ h1{
     font-family: 'Elsie', cursive;
     font-size: 2em;
 }
-h2{
-    
-}
-.section-image{
-    
+.section-image{    
     height: 640px;
     background-image: url("/images/ride02.jpg");
     background-position: center;
@@ -113,16 +115,16 @@ h2{
     margin-top: 50px;
     padding-top:25px;
     padding-bottom:25px; 
-    width: 300px;
+    max-width: 300px;
     background-color: rgb(242,176,89);
     border:none;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
-    font-family:  'Elsie', cursive;
-    color: rgb(30,30,30);
-    
+    font-family: 'Elsie', cursive;
+    color: rgb(30,30,30);    
 }
+
 .stuber-btn-small{
     display: block;
     padding:5px;
@@ -248,7 +250,9 @@ li{
     min-height: 150px;
     background-color: rgb(198,198,198);
 }
-
+.messages-container{
+    margin-bottom: 20px;
+}
 .messages{
     background-color: rgb(95,118,116);
     height:600px;
@@ -287,14 +291,13 @@ li{
     height: 120px;
     background-color: rgb(95,118,116); 
     display: flex;
-    
-
 }
 .type-box{
     height: 90px;
     width: 1000px;
     margin-left: 10px;
-    border-radius: 3px;
+    border-radius: 3px;    
+    
 }
 .send-btn{
     min-width: 50px;
