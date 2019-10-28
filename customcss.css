@@ -240,6 +240,8 @@ li{
 .contacts{
     background-color: rgb(150, 150, 150);
     margin-bottom: 20px;
+    height: 720px;
+    overflow-y: scroll;
 }
 .contact{
     width: 80%;
@@ -249,23 +251,62 @@ li{
 
 .messages{
     background-color: rgb(95,118,116);
-    margin-bottom: 20px;
+    height:600px;
+    overflow-y: scroll;
 }
 .lister-img-small{
     width:60px;
     height:60px;
     margin-top:15px;
 }
-.history{
-    height:600px; 
-    overflow-y: scroll;
+.scrollbar::-webkit-scrollbar{
+    width: 6px;
+    background-color: rgba(0, 0, 0, 0);
+
+    
 }
-.message{
+.scrollbar::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgb(242,176,89);
+}
+.message-them{
     width: 80%;
     min-height: 150px;
     background-color: rgb(198,198,198);
+    margin: 0 10px;
+    border-radius: 25px 25px 25px 0;
+}
+.message-you{
+    width: 80%;
+    min-height: 150px;
+    background-color: rgb(198,198,198);
+    margin: 0 10px;
+    border-radius: 25px 25px 0 25px;
+}
+.type-box-container{
+    height: 120px;
+    background-color: rgb(95,118,116); 
+    display: flex;
+    
+
 }
 .type-box{
-    height: 100px;
+    height: 90px;
+    width: 1000px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.send-btn{
+    min-width: 50px;
+    height: 90px;
+    margin: 24px 10px 0;
+    background-color: rgb(242,176,89);
+    border:none;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.send{
+    width: 30px;
+    height: 30px;
     
 }
