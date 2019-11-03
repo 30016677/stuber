@@ -144,7 +144,7 @@ h1{
     text-decoration: none !important;    
 }
 .section-footer{
-    height: 100px;
+    min-height: 100px;
     background: rgb(198,198,198);
 }
 .w50{
@@ -152,6 +152,10 @@ h1{
 }
 .social:hover{
     opacity: 0.8;
+}
+.social{
+    width: 75px;
+    max-height: 75px;
 }
 
 /* SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  |  SIGN IN  | */
@@ -222,8 +226,8 @@ li{
     background-color: rgb(198,198,198);
 }
 .lister-img{
-    width:120px;
-    height: 120px;
+    max-width:120px;
+    max-height: 120px;
     margin-top: 15px;
 }
 .rating{
@@ -234,10 +238,6 @@ li{
 /* MESSENGER  |  MESSENGER  |  MESSENGER  |  MESSENGER  |  MESSENGER  |  MESSENGER  |  MESSENGER  |   */
 .w80{
     width: 80%;
-}
-.section-messenger{
-    
-
 }
 .contacts{
     background-color: rgb(150, 150, 150);
@@ -265,9 +265,7 @@ li{
 }
 .scrollbar::-webkit-scrollbar{
     width: 6px;
-    background-color: rgba(0, 0, 0, 0);
-
-    
+    background-color: rgba(0, 0, 0, 0);    
 }
 .scrollbar::-webkit-scrollbar-thumb{
     border-radius: 10px;
@@ -296,8 +294,9 @@ li{
     height: 90px;
     width: 1000px;
     margin-left: 10px;
-    border-radius: 3px;    
-    
+    border-radius: 3px;
+    overflow: scroll;
+
 }
 .send-btn{
     min-width: 50px;
